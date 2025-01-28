@@ -75,7 +75,36 @@ table td{
     font-weight: bold;
 }
 
+.buttonMore {
+    background-color: #30beff;
+    padding: 8px 24px;
+    color: #fff;
+    margin: 14px 0px;
+    border-radius: 8px;
+}
+
+.logoCoin {
+    width: 20px;
+    height: 20px;
+    transition: all 1s;
+}
+
+.logoCoin:hover {
+    transform: scale(1.5);
+    z-index: 99;
+}
+
+.name {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
 @media screen and (max-width: 600px) {
+    .name img{
+        margin-left:14px;
+    }
+    
     table {
         border: 0;
     }
